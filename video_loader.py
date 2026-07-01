@@ -1,15 +1,3 @@
-"""
-Vehicle Detection & Counter using YOLOv8 + OpenCV
---------------------------------------------------
-Requirements:
-    pip install ultralytics opencv-python
-
-Usage:
-    python vehicle_counter.py                         # uses webcam (source=0)
-    python vehicle_counter.py --source video.mp4      # uses a video file
-    python vehicle_counter.py --source video.mp4 --output out.mp4  # saves result
-"""
-
 import cv2
 from ultralytics import YOLO
 
